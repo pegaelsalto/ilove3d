@@ -92,11 +92,8 @@
 
     <!-- Header -->
     <header id="header" class="header">
-        
         <div class="header-content">
-
             <div class="container">
-
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-container">
@@ -111,10 +108,18 @@
         </div> <!-- end of header-content -->
     </header> <!-- end of header -->
     <!-- end of header -->
+    <form action="../cgi-bin/FORMULARIO.pl" method="post">
+        <label for="nombre">Nombres: </label>
+        <input  name="nombre" type="text" id="nombre" placeholder="Escribe tu nombre">
+        <label for="Email">Email</label>
+        <input name="apellido" type="text" id="Email" placeholder="Escribe tus apellidos">
+        <label for="mensaje" >Mensaje:</label>
+        <textarea name="texto" type="text" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
     <div class="cards-1 basic-1">
         <center> <h4  class="card-title">CÓMO FUNCIONA</h4></center>
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <!-- Card -->    
